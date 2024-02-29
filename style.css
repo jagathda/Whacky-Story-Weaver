@@ -1,0 +1,43 @@
+/* Styling game board */
+#board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin-right: 750px;
+}
+
+/* Styling the topic */
+#topic{
+    color: rgb(32, 32, 153);
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Styling result text */
+#result{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+/* Styling reload button */
+.reload{
+    background-color: white;
+    color: rgb(16, 75, 14);
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-bottom: 0px;
+}
+
+/* Styling the border */
+.border{
+    border: solid;
+    border-color: rgb(7, 7, 77);
+    border-width: 2px;
+    position: absolute;
+    height: 98%;
+    width: 50%;
+}
